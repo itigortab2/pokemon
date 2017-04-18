@@ -1,0 +1,4 @@
+PIDGEY ќбычный
+PIDGEOT ќбычный ѕолет
+EKANS ядовитый
+PIKACHU Ёлектрический

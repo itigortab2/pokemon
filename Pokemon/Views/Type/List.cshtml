@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PType>
+
+@{
+    ViewBag.Title = "Список типов покемонов";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Список покемонов</h2>
+
+<p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <input type="button" class="btn btn-primary" value="Создать тип покемона" onclick="location.href='@Url.Action("Create")'">
+        <input type="button" class="btn btn-secondary" value="Прочитать txt файл" onclick="location.href='@Url.Action("ReadFile")'">
+    </div>
+
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            Название
+        </th>
+        <th>
+            Операции
+        </th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.type)
+            </td>
+            <td>
+                <input type="button" class="btn btn-info" value="Инфо" onclick="location.href='@Url.Action("Details", new { id=item.idType })'" />
+
+                <input type="button" class="btn btn-danger" value="Удалить" onclick="location.href='@Url.Action( "Delete", new { id=item.idType })'" />
+
+
+            </td>
+        </tr>
+    }
+
+</table>

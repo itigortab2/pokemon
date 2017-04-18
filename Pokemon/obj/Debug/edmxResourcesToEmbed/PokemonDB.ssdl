@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PokemonDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Pokemon">
+    <Key>
+      <PropertyRef Name="IdPokemon" />
+    </Key>
+    <Property Name="IdPokemon" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PokemonType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="pokemon" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="idType" />
+    </Key>
+    <Property Name="idType" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type" Type="nchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_PokemonType_Pokemon">
+    <End Role="Pokemon" Type="Self.Pokemon" Multiplicity="1" />
+    <End Role="PokemonType" Type="Self.PokemonType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pokemon">
+        <PropertyRef Name="IdPokemon" />
+      </Principal>
+      <Dependent Role="PokemonType">
+        <PropertyRef Name="pokemon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PokemonType_Type">
+    <End Role="Type" Type="Self.Type" Multiplicity="1" />
+    <End Role="PokemonType" Type="Self.PokemonType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="idType" />
+      </Principal>
+      <Dependent Role="PokemonType">
+        <PropertyRef Name="type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PokemonDBModelStoreContainer">
+    <EntitySet Name="Pokemon" EntityType="Self.Pokemon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PokemonType" EntityType="Self.PokemonType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Type" EntityType="Self.Type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PokemonType_Pokemon" Association="Self.FK_PokemonType_Pokemon">
+      <End Role="Pokemon" EntitySet="Pokemon" />
+      <End Role="PokemonType" EntitySet="PokemonType" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PokemonType_Type" Association="Self.FK_PokemonType_Type">
+      <End Role="Type" EntitySet="Type" />
+      <End Role="PokemonType" EntitySet="PokemonType" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

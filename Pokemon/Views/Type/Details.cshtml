@@ -1,0 +1,21 @@
+﻿@model PType
+
+@{
+    ViewBag.Title = "Информация";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Информация о типе</h2>
+
+<div class="card">
+    <h3 class="card-header">@Html.DisplayFor(model => model.type)</h3>
+    
+</div>
+
+<p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <input type="button" class="btn btn-primary" value="Редактировать" onclick="location.href='@Url.Action("Edit",new { id = Model.idType })'">
+        <input type="button" class="btn btn-secondary" value="Назад" onclick="location.href='@Url.Action("Index")'">
+    </div>
+</p>

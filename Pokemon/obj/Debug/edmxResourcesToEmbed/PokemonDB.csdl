@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PokemonDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Pokemon">
+    <Key>
+      <PropertyRef Name="IdPokemon" />
+    </Key>
+    <Property Name="IdPokemon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PokemonType" Relationship="Self.FK_PokemonType_Pokemon" FromRole="Pokemon" ToRole="PokemonType" />
+  </EntityType>
+  <EntityType Name="PokemonType">
+    <NavigationProperty Name="Pokemon1" Relationship="Self.FK_PokemonType_Pokemon" FromRole="PokemonType" ToRole="Pokemon" />
+    <NavigationProperty Name="Type1" Relationship="Self.FK_PokemonType_Type" FromRole="PokemonType" ToRole="Type" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="idType" />
+    </Key>
+    <Property Name="idType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type1" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PokemonType" Relationship="Self.FK_PokemonType_Type" FromRole="Type" ToRole="PokemonType" />
+  </EntityType>
+  <Association Name="FK_PokemonType_Pokemon">
+    <End Role="Pokemon" Type="Self.Pokemon" Multiplicity="1" />
+    <End Role="PokemonType" Type="Self.PokemonType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pokemon">
+        <PropertyRef Name="IdPokemon" />
+      </Principal>
+      <Dependent Role="PokemonType">
+        <PropertyRef Name="pokemon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PokemonType_Type">
+    <End Role="Type" Type="Self.Type" Multiplicity="1" />
+    <End Role="PokemonType" Type="Self.PokemonType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="idType" />
+      </Principal>
+      <Dependent Role="PokemonType">
+        <PropertyRef Name="type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PokemonDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Pokemon" EntityType="Self.Pokemon" />
+    <EntitySet Name="PokemonType" EntityType="Self.PokemonType" />
+    <EntitySet Name="Type" EntityType="Self.Type" />
+    <AssociationSet Name="FK_PokemonType_Pokemon" Association="Self.FK_PokemonType_Pokemon">
+      <End Role="Pokemon" EntitySet="Pokemon" />
+      <End Role="PokemonType" EntitySet="PokemonType" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PokemonType_Type" Association="Self.FK_PokemonType_Type">
+      <End Role="Type" EntitySet="Type" />
+      <End Role="PokemonType" EntitySet="PokemonType" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

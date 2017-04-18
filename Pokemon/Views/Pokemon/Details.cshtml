@@ -1,0 +1,28 @@
+﻿@model Pokemon
+
+@{
+    ViewBag.Title = "Информация о покемоне";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Информация о покемоне</h2>
+
+<div class="card">
+    <h3 class="card-header">@Html.DisplayFor(model => model.title)</h3>
+    <div class="card-block">
+        <ul>
+            @foreach (PType c in Model.PType)
+            {
+                <li>@c.type</li>
+            }
+        </ul>
+
+    </div>
+</div>
+
+<p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <input type="button" class="btn btn-primary" value="Редактировать" onclick="location.href='@Url.Action("Edit", new { id = Model.IdPokemon })'">
+        <input type="button" class="btn btn-secondary" value="Назад" onclick="location.href='@Url.Action("Index")'">
+    </div>
+</p>

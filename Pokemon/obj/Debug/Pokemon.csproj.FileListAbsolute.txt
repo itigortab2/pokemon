@@ -1,0 +1,186 @@
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\ApplicationInsights.config
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\csc.exe
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\vbc.exe
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Pokemon.dll.config
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Pokemon.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Pokemon.pdb
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Antlr3.Runtime.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\EntityFramework.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\EntityFramework.SqlServer.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.Web.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.ApplicationInsights.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Newtonsoft.Json.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Owin.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Helpers.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Mvc.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Optimization.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Razor.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\WebGrease.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.Web.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.ApplicationInsights.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Helpers.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Mvc.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Optimization.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Razor.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Antlr3.Runtime.pdb
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Newtonsoft.Json.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\EntityFramework.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\EntityFramework.SqlServer.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\obj\Debug\Pokemon.csprojResolveAssemblyReference.cache
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\obj\Debug\Pokemon.dll
+c:\users\ae\documents\visual studio 2015\Projects\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\Swashbuckle.Core.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Net.Http.Formatting.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Http.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Http.WebHost.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\WebActivatorEx.dll
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Net.Http.Formatting.xml
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Http.xml
+C:\Users\AE\Documents\Visual Studio 2015\Projects\Pokemon\Pokemon\bin\System.Web.Http.WebHost.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\ApplicationInsights.config
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\csc.exe
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\vbc.exe
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Pokemon.dll.config
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Pokemon.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Pokemon.pdb
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Antlr3.Runtime.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\EntityFramework.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\EntityFramework.SqlServer.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.Web.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Newtonsoft.Json.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Owin.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Swashbuckle.Core.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Net.Http.Formatting.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Helpers.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Http.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Http.WebHost.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Mvc.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Optimization.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Razor.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\WebActivatorEx.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\WebGrease.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.Web.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Net.Http.Formatting.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Http.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Http.WebHost.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Helpers.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Mvc.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Optimization.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.Razor.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\System.Web.WebPages.Razor.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Antlr3.Runtime.pdb
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Newtonsoft.Json.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\EntityFramework.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\EntityFramework.SqlServer.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\obj\Debug\Pokemon.csprojResolveAssemblyReference.cache
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\obj\Debug\Pokemon.dll
+C:\Users\BushtakovOI\Downloads\Pokemon (1)\Pokemon\Pokemon\obj\Debug\Pokemon.pdb

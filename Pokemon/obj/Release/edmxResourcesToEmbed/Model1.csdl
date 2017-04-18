@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PokemonDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Pokemon">
+    <Key>
+      <PropertyRef Name="IdPokemon" />
+    </Key>
+    <Property Name="IdPokemon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PType" Relationship="Self.PokType" FromRole="Pokemon" ToRole="PType" />
+  </EntityType>
+  <EntityType Name="PType">
+    <Key>
+      <PropertyRef Name="idType" />
+    </Key>
+    <Property Name="idType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Pokemon" Relationship="Self.PokType" FromRole="PType" ToRole="Pokemon" />
+  </EntityType>
+  <Association Name="PokType">
+    <End Role="Pokemon" Type="Self.Pokemon" Multiplicity="*" />
+    <End Role="PType" Type="Self.PType" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Pokemon" EntityType="Self.Pokemon" />
+    <EntitySet Name="PType" EntityType="Self.PType" />
+    <AssociationSet Name="PokType" Association="Self.PokType">
+      <End Role="Pokemon" EntitySet="Pokemon" />
+      <End Role="PType" EntitySet="PType" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

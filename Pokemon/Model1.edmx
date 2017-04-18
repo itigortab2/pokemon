@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PokemonDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Pokemon">
+          <Key>
+            <PropertyRef Name="IdPokemon" />
+          </Key>
+          <Property Name="IdPokemon" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="title" Type="nchar" MaxLength="255" Nullable="false" />
+          <Property Name="picture" Type="bit" />
+        </EntityType>
+        <EntityType Name="PokType">
+          <Key>
+            <PropertyRef Name="idPokemon" />
+            <PropertyRef Name="idType" />
+          </Key>
+          <Property Name="idPokemon" Type="int" Nullable="false" />
+          <Property Name="idType" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PType">
+          <Key>
+            <PropertyRef Name="idType" />
+          </Key>
+          <Property Name="idType" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="type" Type="nchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_PokType_Pokemon">
+          <End Role="Pokemon" Type="Self.Pokemon" Multiplicity="1" />
+          <End Role="PokType" Type="Self.PokType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pokemon">
+              <PropertyRef Name="IdPokemon" />
+            </Principal>
+            <Dependent Role="PokType">
+              <PropertyRef Name="idPokemon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PokType_PType">
+          <End Role="PType" Type="Self.PType" Multiplicity="1" />
+          <End Role="PokType" Type="Self.PokType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PType">
+              <PropertyRef Name="idType" />
+            </Principal>
+            <Dependent Role="PokType">
+              <PropertyRef Name="idType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PokemonDBModelStoreContainer">
+          <EntitySet Name="Pokemon" EntityType="Self.Pokemon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PokType" EntityType="Self.PokType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PType" EntityType="Self.PType" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PokType_Pokemon" Association="Self.FK_PokType_Pokemon">
+            <End Role="Pokemon" EntitySet="Pokemon" />
+            <End Role="PokType" EntitySet="PokType" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PokType_PType" Association="Self.FK_PokType_PType">
+            <End Role="PType" EntitySet="PType" />
+            <End Role="PokType" EntitySet="PokType" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PokemonDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Pokemon">
+          <Key>
+            <PropertyRef Name="IdPokemon" />
+          </Key>
+          <Property Name="IdPokemon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="PType" Relationship="Self.PokType" FromRole="Pokemon" ToRole="PType" />
+          <Property Name="picture" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="PType">
+          <Key>
+            <PropertyRef Name="idType" />
+          </Key>
+          <Property Name="idType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="type" Type="String" MaxLength="255" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Pokemon" Relationship="Self.PokType" FromRole="PType" ToRole="Pokemon" />
+        </EntityType>
+        <Association Name="PokType">
+          <End Role="Pokemon" Type="Self.Pokemon" Multiplicity="*" />
+          <End Role="PType" Type="Self.PType" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Pokemon" EntityType="Self.Pokemon" />
+          <EntitySet Name="PType" EntityType="Self.PType" />
+          <AssociationSet Name="PokType" Association="Self.PokType">
+            <End Role="Pokemon" EntitySet="Pokemon" />
+            <End Role="PType" EntitySet="PType" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PokemonDBModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="Pokemon">
+            <EntityTypeMapping TypeName="PokemonDBModel.Pokemon">
+              <MappingFragment StoreEntitySet="Pokemon">
+                <ScalarProperty Name="picture" ColumnName="picture" />
+                <ScalarProperty Name="IdPokemon" ColumnName="IdPokemon" />
+                <ScalarProperty Name="title" ColumnName="title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PType">
+            <EntityTypeMapping TypeName="PokemonDBModel.PType">
+              <MappingFragment StoreEntitySet="PType">
+                <ScalarProperty Name="idType" ColumnName="idType" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="PokType" TypeName="PokemonDBModel.PokType" StoreEntitySet="PokType">
+            <EndProperty Name="Pokemon">
+              <ScalarProperty Name="IdPokemon" ColumnName="idPokemon" />
+            </EndProperty>
+            <EndProperty Name="PType">
+              <ScalarProperty Name="idType" ColumnName="idType" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

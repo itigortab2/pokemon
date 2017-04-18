@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Pokemon>
+
+@{
+    ViewBag.Title = "Список покемонов";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Список покемонов</h2>
+
+<p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <input type="button" class="btn btn-primary" value="Создать покемона" onclick="location.href='@Url.Action("Create")'">
+        <input type="button" class="btn btn-secondary" value="Прочитать XML файл" onclick="location.href='@Url.Action("ReadXMLToDB")'">
+        <input type="button" class="btn btn-secondary" value="Прочитать txt файл" onclick="location.href='@Url.Action("ReadFile")'">
+    </div>
+   
+</p>
+
+<p>
+    <input type="button" class="btn btn-secondary" value="Сортировать по возр/убыв" onclick="location.href='@Url.Action("Index", new { sortOrder = @ViewBag.TitleSort } )'">
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+           Название
+        </th>
+        <th>
+            Операции
+        </th>
+    </tr>
+
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            <input type="button" class="btn btn-info" value="Инфо" onclick="location.href='@Url.Action("Details", new { id=item.IdPokemon })'" />
+
+            <input type="button" class="btn btn-warning" value="Редактировать" onclick="location.href='@Url.Action("Edit", new { id=item.IdPokemon })'" />
+            
+            <input type="button" class="btn btn-danger" value="Удалить" onclick="location.href='@Url.Action( "Delete", new { id=item.IdPokemon })'" />
+
+           
+        </td>
+    </tr>
+}
+
+</table>
